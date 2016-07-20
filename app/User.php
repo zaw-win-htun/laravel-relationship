@@ -28,9 +28,5 @@ class User extends Authenticatable
     ];
 
 
-    /*A user can have many articles*/
-    public function articles()
-    {
-        return $this->hasMany('App\Article');
-    }
+   
 }

@@ -38,6 +38,8 @@
 			{!! Form::close() !!}
 		</div>
 
+		<hr>
+
 	@endforeach
 	
 	
